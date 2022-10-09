@@ -1,0 +1,15 @@
+{% extends "partials/layout.html" }
+
+{% block title %} Casos {% endblock %}
+
+{% block content%}
+
+<h1> casos </h1>
+{% for p in preguntas %}
+<div class="container">
+    <img id= "target" src=" {{ip.img_patologia.url}}" > <br>
+
+
+{% endfor %}
+</div>
+{% endblock %}
